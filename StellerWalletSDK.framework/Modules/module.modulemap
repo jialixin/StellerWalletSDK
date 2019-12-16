@@ -1,0 +1,11 @@
+framework module StellerWalletSDK {
+  umbrella header "StellerWalletSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module StellerWalletSDK.Swift {
+    header "StellerWallerSDK-Swift.h"
+    requires objc
+}
